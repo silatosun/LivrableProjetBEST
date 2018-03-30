@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Best</string>
+    <string name="position">Position</string>
+    <string name="plan">Plan</string>
+    <string name="change">change</string>
+    <string name="sortie">sortie</string>
+    <string name="porte">porte</string>
+    <string name="list">Building List</string>
+</resources>

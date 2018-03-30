@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.best.client.clientbest.FingerPrint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#f86611">
+
+        <ImageView
+            android:id="@+id/btext"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:hint="Buildings List"
+            android:src="@drawable/logo_best" /><![CDATA[
+
+
+
+        />
+
+
+    ]]>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinzoneid"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:dropDownWidth="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinsortieid"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:dropDownWidth="wrap_content" />
+    </LinearLayout>
+
+
+    <fr.best.client.clientbest.VuePlan
+        android:id="@+id/maVue"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/updatezone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@drawable/updatezone"/>
+
+        <Button
+            android:id="@+id/updatesortie"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@drawable/updatesortieicone"
+             />
+     </LinearLayout>
+ </android.widget.LinearLayout>
