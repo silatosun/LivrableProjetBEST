@@ -1,0 +1,20 @@
+MISE EN PLACE DU PROJET BEST
+
+1. Cloner le projet LivrableProjetBEST
+
+Mettre en place le serveur :
+Le dossier bestserveur comporte un le serveur de notre application.
+
+2. Importer le dossier bestserveur dans Eclipse.
+
+3. Faire tourner le projet BestServeur avec Tomcat 8.5
+(Ne pas oublier de verifier le port pour la connexion MySQL dans ConnexionBDD)
+
+4. Importer le dossier androidbest dans Android Studio
+
+5. Changez l'adresse IP dans la partie Singleton avec votre propre adresse IP.
+
+5. Changez le nom de votre point d'accès (routeur) dans la partie Localiser avec votre propre point d'accès Wifi.
+
+6. Faites tourner l'application sur votre Android ou émulateur.
+  
